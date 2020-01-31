@@ -1,0 +1,44 @@
+/*css doc*/
+
+body{
+    background-color: #DAF8FF; 
+    border-style: groove;
+    border-color: rgb(0,0,0);
+        text-align: center;
+
+}
+
+h1{
+    text-transform: uppercase;
+    color: rgb(73, 132, 214);
+    font-style: oblique;
+    font-family: sans-serif;
+    text-align: center;
+   
+    
+}
+h2{
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 2em;
+}
+h3{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+h4{
+    color: rgb(203,154,80); 
+    font-family: sans-serif;
+    padding-top: 2em;
+}
+
+p{
+    text-transform: capitalize;
+    padding: 1em;
+    font-style: italic;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
