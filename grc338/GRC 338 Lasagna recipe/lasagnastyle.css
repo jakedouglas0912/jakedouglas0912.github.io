@@ -1,0 +1,59 @@
+/*CSS DOCUMENT*/
+
+
+img {
+    width: 60%;
+    padding-left: 3em;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2{
+    font-style: oblique;
+    color: rgb(222,93,84);
+    margin-left: 2em;
+}
+h3{
+    text-decoration: underline;
+}
+
+body{
+    background-color: rgb(255,230,166); 
+    border-style: groove;
+    border-color: rgb(0,0,0);
+}
+
+div.intro p{
+    font-family: sans-serif;
+    margin-left: 3em;
+    margin-right: 20em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+div.ingredients{
+    float: right;
+    margin-left: 3em;
+    margin-right: 5em;
+    margin-bottom: 5em;
+    margin-top: -1.25em;
+}
+
+div.directions{
+    margin-left: 3em;
+    margin-right: 10em;
+}
+
+h6{
+    text-align: right;
+    padding-top: 2em;
+}
+
+h3{
+    color: rgb(222,93,84);
+    font-style: oblique;
+}
+
