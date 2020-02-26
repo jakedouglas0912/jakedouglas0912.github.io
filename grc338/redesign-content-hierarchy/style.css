@@ -190,9 +190,19 @@ li a:hover {
     }
     
     .store-image{
-        width:25%;
+        max-width: 25%;
+        height: auto;
     }
     
+    .subtitle1{
+        margin: 1em;
+        text-align: left;
+    }
+    
+    .images{
+        width: 20%;
+        margin-left: 1em;
+    }
    
     
         
