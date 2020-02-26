@@ -20,7 +20,6 @@ img{
     color: rgb(171,133,87)
     
 }
-
 ul.menu {
   list-style-type: none;
   margin: 0;
@@ -106,6 +105,9 @@ li a:hover {
         margin: auto;
 
 }
+    .logo{
+        width: 50%;
+    }
 
 
 
@@ -180,12 +182,18 @@ li a:hover {
         
     }
     
-   @media screen and only (min-width: 25em){
-        div.paragraph-center{
-            text-align: center;
-        margin: 5em;
-        }
+    .subtitle-left{
+        text-align: left;
+    padding-top: 1em;
+    width: 70%;
+        color: rgb(171,133,87)
     }
+    
+    .store-image{
+        width:25%;
+    }
+    
+   
     
         
 
