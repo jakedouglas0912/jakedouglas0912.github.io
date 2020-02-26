@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(188,209,208);
+    margin:0;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+.logo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+    padding: 2em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+    color: rgb(171,133,87)
+    
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+.bio {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    color: rgb(171,133,87)
+}
+.homeimage{
+    align-items: center;
+}
+
+.hours{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+    padding: 2em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+    float: left;
+    max-width: 10em;
+    
+}
+
+
+
+.contact{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+    padding: 2em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+    float: left;
+    max-width: 10em;
+}
+
+
+
+@media only screen and (min-width: 1em){
+    .contact{
+        width: 10em;
+    }
+    .hours{
+        width: 10em;
+    }
+}
+
+@media only screen and (min-width: 25em){
+    .bio{
+        max-width: 20em;
+        margin: auto;
+
+}
+
+
+
+/*About Page Styling*/
+    
+    h3{
+        margin-top: 2em;
+    }
+    
+    p{
+        margin: 1;
+    }
+    
+    div.paragraph-container{
+        max-width: 60em;
+    }
+
+    div.paragraph{
+        max-width: 25em;
+        margin-left: 1em;
+    }
+    
+    @media screen and only (min-width: 25em){
+        div.paragraph{
+            width: 45%;
+            float: left;
+            margin-right: 1em;
+        }
+    }
+    
+    /* The Garden Page */
+    
+     div.garden-container{
+        max-width: 50em;
+         margin: 2em;
+         width: 100%;
+    }
+
+    .pullquote {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    color: rgb(171,133,87)
+}
+    
+   
+    @media only screen and (min-width: 25em){
+    .pullquote{
+        max-width: 20em;
+        margin: auto;
+        }
+        p.gardens{
+            width: 80%;
+        }
+
+}
+    
+    .subtitle{
+        text-align: center;
+    padding-top: 1em;
+    width: 100%;
+    font-size: 25px;
+    }
+        
+    
+    div.paragraph-center{
+        max-width: 50em;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+   @media screen and only (min-width: 25em){
+        div.paragraph-center{
+            text-align: center;
+        margin: 5em;
+        }
+    }
+    
+        
+
+
+
+
