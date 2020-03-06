@@ -38,6 +38,7 @@ li a {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+    font-family: 'Slabo 27px', serif;
 }
 
 
@@ -171,6 +172,15 @@ h2.site-footer {
     margin-bottom: 2em;
 }
 
+p{
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-family: 'Slabo 27px', serif;
+}
+h4{
+    font-family: 'Slabo 27px', serif;
+}
 
 
 
