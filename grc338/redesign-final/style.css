@@ -1,0 +1,177 @@
+body {
+	background-color: rgb(166, 239, 255);
+	margin: 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	padding: 2em;
+	margin-bottom: 0em;
+	padding-bottom: 0em;
+	color: rgb(179, 136, 98);
+}
+
+ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(51,51,51);
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+	background-color: #111;
+}
+
+.bio {
+	padding-bottom: 1em;
+	padding-top: 1em;
+	text-align: center;
+	width: 100%;
+	font-size: 25px;
+	color: rgb(179, 136, 98);
+}
+
+h2.site-footer {
+	display: inline-block;
+	text-align: center;
+}
+
+.hours {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.contact {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+
+
+@media only screen and (min-width: 50em) {
+	.bio {
+		max-width: 20em;
+		margin: auto;
+	}
+	.logo {
+		width: 30%;
+	}
+    
+    .pullquote {
+			max-width: 20em;
+			margin: auto;
+		}
+		p.gardens {
+			width: 80%;
+		}
+    .paragraph{
+        max-width: 85%;
+    }
+}
+	/*About Page Styling*/
+	h3 {
+		margin-top: 2em;
+		color: rgb(179, 136, 98);
+	}
+	p {
+		margin: 1;
+	}
+
+	
+	
+
+	/* The Garden Page */
+	div.garden-container {
+		max-width: 50em;
+		margin: 2em;
+		width: 100%;
+	}
+	.pullquote {
+		padding-bottom: 1em;
+		padding-top: 1em;
+		text-align: center;
+		width: 100%;
+		font-size: 25px;
+		color: rgb(179, 136, 98);
+	}
+	
+	.subtitle {
+		text-align: center;
+		padding-top: 1em;
+		width: 100%;
+		font-size: 25px;
+		color: rgb(179, 136, 98);
+	}
+   
+	
+
+
+.store-image {
+	max-width: 25%;
+	height: auto;
+}
+
+.subtitle1 {
+	margin: 1em;
+	text-align: left;
+}
+
+.images {
+	max-width: width: 10em;
+	margin-left: 1em;
+	max-width: 25%;
+}
+
+.container {
+	width: 100%;
+}
+
+.right-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.paragraph{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+
+
+
+
